@@ -16,7 +16,7 @@
 <body style="background: #091f18">
 
   <!-- ======= Mobile nav toggle button ======= -->
-  <i class="fa fa-bars mobile-nav-toggle d-xl-none"></i>
+  <!-- <i class="fa fa-bars mobile-nav-toggle d-xl-none" onclick=myFunc()></i> -->
 
   <header id="header">
     <div class="d-flex flex-column">
@@ -45,7 +45,7 @@
         allow="accelerometer; autoplay; camera; gyroscope; payment;" src="https://app.uniswap.org/#/swap?theme=dark"
         style="height: 550px; width: 400px" class="mt-5">
       </iframe>
-      <div style="margin-top: 35px" class = "temp-inst">
+      <div style="margin-top: 35px" class="temp-inst">
         <div class="alert alert-success m-3" role="alert" style="height: 97%;">
           <p>1) Check your slippage </p>
 
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div style="margin-top: 35px" class = "inst">
+    <div style="margin-top: 35px" class="inst">
       <div class="alert alert-success m-3" role="alert" style="height: 97%;">
         <p>1) Check your slippage </p>
 
@@ -83,12 +83,13 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <script>
-    on('click', '.mobile-nav-toggle', function (e) {
-      select('body').classList.toggle('mobile-nav-active')
-      this.classList.toggle('bi-list')
-      this.classList.toggle('bi-x')
-    })
+    function myFunc() {
+      var element = document.getElementsByTagName("BODY")[0];
+      element.classList.toggle("mobile-nav-toggle");
+      console.log("Hi")
+    }
   </script>
 </body>
 
