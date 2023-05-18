@@ -1,0 +1,31 @@
+    @font-face {
+      font-weight: 400;
+      font-style: normal;
+      font-family: circular;
+
+      src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Regular.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-weight: 500;
+      font-style: normal;
+      font-family: circular;
+
+      src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Medium.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-weight: 700;
+      font-style: normal;
+      font-family: circular;
+
+      src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-weight: 900;
+      font-style: normal;
+      font-family: circular;
+
+      src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Black.woff2') format('woff2');
+    }

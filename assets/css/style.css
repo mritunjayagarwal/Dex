@@ -1,0 +1,87 @@
+body{
+    background-color: #081D16;
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+}
+ 
+ 
+.logo{
+    color: #75F15C;
+    font-size: x-large;
+}
+.nav-item{
+    margin-right: 80px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.btn-buy-now{
+    border-radius: 30px;
+    background-color: #4A9B7E;
+    color: white;
+    font-weight: 700;
+}
+.banner-logoname{
+    font-weight: 900;
+    color: #75F15C;
+}
+.banner-main{
+    font-weight: 900;
+    color: white;
+}
+.line{
+    background-color: #75F15C;
+    /* width: 80%; */
+    margin-left: initial;
+    height: 2px;
+
+}
+.main-content{
+    /* width: 80%; */
+    color: white;
+}
+.tele-buy{
+    border: 1px solid yellow;
+    padding: 2% 10% 2% 10%;
+    background-color: #4A9B7E;
+    color: white;
+    font-weight: bold;
+   
+}
+.tele-buy:hover{
+    text-decoration: none;
+    color: white;
+}
+.text-green{
+    color: #75F15C;
+}
+.borders-left{
+    border-left: 3px solid white;
+}
+.box{
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 49px;
+    background-color: #1C4335;
+    /* height: 282px; */
+}
+.divs_links{
+    border: 4px solid #75F15C;
+    background-color: #0B2119;
+    padding: 30px;
+    color: white;
+    font-size: 19pt;
+    border-radius: 15px;
+    text-align: center;
+}
+.box1{
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 49px;
+    background-color: #1C4335;
+    /* height: 400px; */
+    padding: 50px;
+}
+ 
